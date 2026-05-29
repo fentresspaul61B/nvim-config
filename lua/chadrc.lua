@@ -47,12 +47,12 @@ M.base46 = {
     ["@type"] = { fg = "#7aa2f7" },
 
     -- variables / parameters / constants (names you define)
-    ["@variable"]                  = { fg = "#9ece6a" },
-    ["@variable.lua"]              = { fg = "#9ece6a" },
+    ["@variable"]                  = { fg = "#e0af68" },
+    ["@variable.lua"]              = { fg = "#e0af68" },
     ["@variable.member"]           = { fg = "#7aa2f7" },
     ["@variable.member.lua"]       = { fg = "#7aa2f7" },
-    ["@variable.parameter"]        = { fg = "#9ece6a" },
-    ["@constant"]                  = { fg = "#9ece6a" },
+    ["@variable.parameter"]        = { fg = "#e0af68" },
+    ["@constant"]                  = { fg = "#e0af68" },
 
     -- NvimTree file colours
     NvimTreeExecFile    = { fg = "#e0af68" },

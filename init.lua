@@ -90,12 +90,12 @@ local function apply_custom_highlights()
   vim.api.nvim_set_hl(0, "@type", { fg = "#7aa2f7" })
 
   -- variables / parameters / constants (names you define)
-  vim.api.nvim_set_hl(0, "@variable",            { fg = "#9ece6a" })
-  vim.api.nvim_set_hl(0, "@variable.lua",        { fg = "#9ece6a" })
+  vim.api.nvim_set_hl(0, "@variable",            { fg = "#e0af68" })
+  vim.api.nvim_set_hl(0, "@variable.lua",        { fg = "#e0af68" })
   vim.api.nvim_set_hl(0, "@variable.member",     { fg = "#7aa2f7" })
   vim.api.nvim_set_hl(0, "@variable.member.lua", { fg = "#7aa2f7" })
-  vim.api.nvim_set_hl(0, "@variable.parameter",  { fg = "#9ece6a" })
-  vim.api.nvim_set_hl(0, "@constant",            { fg = "#9ece6a" })
+  vim.api.nvim_set_hl(0, "@variable.parameter",  { fg = "#e0af68" })
+  vim.api.nvim_set_hl(0, "@constant",            { fg = "#e0af68" })
 
   -- file icons / tree
   vim.api.nvim_set_hl(0, "DevIconGitIgnore",    { fg = "#1bf6fa" })
