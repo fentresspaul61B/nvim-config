@@ -20,4 +20,15 @@ return {
       highlight = { enable = true },
     },
   },
+
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = {
+      diagnostics = {
+        enable = true,
+        show_on_dirs = true,
+        icons = { error = "✘", warning = "▲", hint = "⚑", info = "ℹ" },
+      },
+    },
+  },
 }
